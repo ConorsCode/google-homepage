@@ -5,25 +5,60 @@
             display:block;
             margin-left: auto;
             margin-right: auto;
-            margin-top:20%;
+            padding-top:10%;
         }
         .form1{
-            
-           text-align: center;
+            height: 10px; text-align: center;
+            padding:25px;
+        }
+        li {
+            display: inline;
+        }
+        input {
+            margin-top: 15px;
+            width: 30%;
+            border-radius:9px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight:bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .left {
+            float: left;
+            padding-left:8px;
+        }
+        .right {
+            float:right;
+            padding-right:8px;
+        }
+        .buttons {
+            display:flex;
+            align-items:center;
+            justify-content:center;
         }
 
        </style>
- <ul>
-    <li><a href=""class="about">About</a></li>
-    <li><a href=""class="store">Store</a></li>
-    <li><a href=""class="gmail">Gmail</a></li>
-    <li><a href=""class="images">Images</a></li>
-  </ul> 
+
+<div class="topnav">
+    <a href="*"class="left">About</a>
+    <a href="*"class="left">Store</a>
+    <a href="*"class="right">Images</a>
+    <a href="*"class="right">Gmail</a>
+</div>
+
 
 
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="logo-google">
 <form action="" class="form1">
 <input type="text"></form>
+<div class="buttons">
+<button type="button">Google Search</button>
+<button type="button">I'm feeling lucky!</button>
+</div>
 
 
 
